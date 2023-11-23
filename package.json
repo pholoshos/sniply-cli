@@ -1,0 +1,21 @@
+{
+  "name": "sniply-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clone": "npx degit /sniply"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "degit": "^2.8.4",
+    "ora": "^7.0.1",
+    "simple-git": "^3.21.0",
+    "sniply": "^0.0.1"
+  }
+}
