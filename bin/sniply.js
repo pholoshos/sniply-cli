@@ -22,7 +22,7 @@ program
     fs.mkdirSync(projectPath);
 
     // Clone the project from a Git repository
-    const repositoryUrl = 'https://github.com/pholoshos/sniply.git'; // Replace with your actual repository URL
+    const repositoryUrl = 'https://github.com/pholoshos/sniply.git'; 
     const spinner = ora({
       text: `Cloning from ${repositoryUrl}...`,
       spinner: 'bouncingBall',
@@ -51,12 +51,12 @@ program
       spinner: 'dots',
     }).start();
 
-    // Add logic for building the project
+    //logic for building the project
 
     // Assume the build process takes some time, so simulate it with a timeout
     setTimeout(() => {
       spinner.succeed(chalk.green('Project build complete!'));
-    }, 3000); // Simulating a 3-second build process
+    }, 3000); 
   });
 
 // Add more commands as needed
