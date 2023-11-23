@@ -9,7 +9,7 @@ import chalk from 'chalk';
 
 program
   .version('1.0.0')
-  .description('Your Framework CLI');
+  .description('Sniply CLI');
 
 program
   .command('create <projectName>')

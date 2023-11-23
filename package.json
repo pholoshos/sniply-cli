@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clone": "npx degit /sniply"
+    "clone": "npx degit /sniply",
+    "start": "node main.js"
   },
   "type": "module",
   "keywords": [],
