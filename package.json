@@ -1,11 +1,12 @@
 {
   "name": "sniply-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clone": "npx degit /sniply",
-    "start": "node main.js"
+  },
+  "bin": {
+    "sniply-cli": "./bin/sniply.js"
   },
   "type": "module",
   "keywords": [],
